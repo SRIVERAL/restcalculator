@@ -12,8 +12,8 @@ steps:
 
 - task: SonarCloudPrepare@1
   inputs:
-    SonarCloud: 'eider_sonar_cloud'
-    organization: 'eidermauricio'
+    SonarCloud: 'Azure_devops'
+    organization: 'sriveral'
     scannerMode: 'Other'
 
 - task: Maven@3
